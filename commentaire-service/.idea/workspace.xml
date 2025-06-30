@@ -4,28 +4,122 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a8a6bbe-ceae-4638-8d3a-a71a5bfdd9c0" name="Changes" comment="" />
+    <list default="true" id="0a8a6bbe-ceae-4638-8d3a-a71a5bfdd9c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/formation/CommentaireService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/formation/config/MessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/formation/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/formation/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/formation/controller/CommentaireController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/formation/dto/CommentaireDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/formation/dto/ProduitDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/formation/model/Commentaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/formation/model/MessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/formation/model/MessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/formation/repository/CommentaireRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/formation/service/CommentaireService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lecture-service/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lecture-service/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lecture-service/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lecture-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lecture-service/src/main/java/fr/formation/controller/LectureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lecture-service/src/main/java/fr/formation/model/Lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lecture-service/src/main/java/fr/formation/repository/LectureRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lecture-service/src/main/java/fr/formation/service/LectureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/controller/ProduitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/dto/CommentaireDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/dto/ProduitDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/model/Produit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/service/ProduitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/formation/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/model/Commentaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../produit-service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../produit-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/src/main/java/fr/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/src/main/java/fr/controller/ProduitController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/src/main/java/fr/model/Produit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../produit-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/src/main/java/fr/repository/ProduitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/repository/ProduitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/src/main/java/fr/service/ProduitService.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MusRoom46&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MusRoom46/api-microservices.git&quot;,
+    &quot;accountId&quot;: &quot;22d6c6dc-52bd-440f-bc86-f45c3a08edd4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2yzYE7Bu6BLAJaLksZUMnJZYujX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CommentaireService.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Main.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bedet\OneDrive\Documents\IIA\API_microservices\TP1\commentaire-service\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CommentaireService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="commentaire-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fr.formation.CommentaireService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,6 +137,11 @@
       <option name="presentableId" value="Default" />
       <updated>1750838755232</updated>
       <workItem from="1750838756176" duration="2000" />
+      <workItem from="1750843203955" duration="6331000" />
+      <workItem from="1750921815385" duration="4234000" />
+      <workItem from="1750930965263" duration="272000" />
+      <workItem from="1750931271699" duration="4569000" />
+      <workItem from="1751031890390" duration="625000" />
     </task>
     <servers />
   </component>

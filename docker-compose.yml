@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  eureka-server:
+    image: steeltoe/eureka-server:latest
+    container_name: eureka
+    ports:
+      - "8761:8761"
