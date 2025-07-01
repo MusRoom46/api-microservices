@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bbe3692-52d6-47d5-840c-167b3d5565ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../commentaire-service/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../commentaire-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../commentaire-service/src/main/java/fr/formation/CommentaireService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../commentaire-service/src/main/java/fr/formation/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../commentaire-service/src/main/java/fr/formation/controller/CommentaireController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../commentaire-service/src/main/java/fr/formation/dto/CommentaireDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../commentaire-service/src/main/java/fr/formation/dto/ProduitDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../commentaire-service/src/main/java/fr/formation/model/Commentaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../commentaire-service/src/main/java/fr/formation/repository/CommentaireRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../commentaire-service/src/main/java/fr/formation/service/CommentaireService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../commentaire-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/controller/ProduitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/dto/CommentaireDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/dto/ProduitDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/model/Produit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/service/ProduitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../produit-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commentaire-service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commentaire-service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commentaire-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commentaire-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commentaire-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commentaire-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commentaire-service/src/main/java/fr/config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commentaire-service/src/main/java/fr/formation/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commentaire-service/src/main/java/fr/model/Commentaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commentaire-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../produit-service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../produit-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/src/main/java/fr/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/src/main/java/fr/controller/ProduitController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/src/main/java/fr/model/Produit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../produit-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/src/main/java/fr/repository/ProduitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../produit-service/src/main/java/fr/formation/repository/ProduitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit-service/src/main/java/fr/service/ProduitService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MusRoom46&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MusRoom46/api-microservices.git&quot;,
+    &quot;accountId&quot;: &quot;22d6c6dc-52bd-440f-bc86-f45c3a08edd4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2z2HYzeCQkeDJgO83L8hE2LL4Pf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Main.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fr.formation.eureka_server.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bbe3692-52d6-47d5-840c-167b3d5565ac" name="Changes" comment="" />
+      <created>1750922300868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750922300868</updated>
+      <workItem from="1750922301795" duration="2670000" />
+      <workItem from="1750930948957" duration="287000" />
+      <workItem from="1750931260351" duration="943000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
